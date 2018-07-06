@@ -6,7 +6,7 @@ PKG_RELEASE:=1
 
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)
 PKG_SOURCE:=$(PKG_VERSION).tar.gz
-PKG_SOURCE_URL:=https://github.com/DavidBuchanan314/fusee-nano/archive/
+PKG_SOURCE_URL:=https://github.com/ijuintekka/fusee-nano/archive/
 PKG_CAT:=zcat
 
 include $(INCLUDE_DIR)/package.mk
