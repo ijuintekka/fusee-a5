@@ -15,7 +15,7 @@ define Package/fusee-nano
 	SECTION:=utils
 	CATEGORY:=Utilities
 	TITLE:=Tiny FG exploit implementation
-	URL:=https://github.com/DavidBuchanan314/fusee-nano/
+	URL:=https://github.com/ijuintekka/fusee-nano/
 endef
 
 define Package/fusee-nano/description
