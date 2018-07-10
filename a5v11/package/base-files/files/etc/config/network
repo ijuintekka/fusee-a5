@@ -20,19 +20,19 @@ config interface 'wlan'
 	option ifname 'wlan0'
 	option proto 'static'
 	option netmask '255.255.255.0'
-	option ipaddr '10.0.0.1'
+	option ipaddr '10.1.5.1'
 	option zone 'wan'
-
+	
 config route
 	option interface 'wlan'
 	option target '0.0.0.0'
 	option netmask '0.0.0.0'
-	option gateway '10.0.0.1'
+	option gateway '10.1.5.1'
 	option metric '1'
 	
 config route
 	option interface 'wlan'
-	option target '10.0.0.1'
+	option target '10.1.5.1'
 	option netmask '255.255.255.255'
 	option metric '0'
 

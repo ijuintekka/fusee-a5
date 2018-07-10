@@ -2,7 +2,7 @@ config defaults
 	option syn_flood	1
 	option input		ACCEPT
 	option output		ACCEPT
-	option forward		REJECT	
+	option forward		ACCEPT	
 # Uncomment this line to disable ipv6 rules
 #	option disable_ipv6	1
 
@@ -12,9 +12,10 @@ config zone
 	list   network		'wan6'
 	option input		ACCEPT
 	option output		ACCEPT
-	option forward		REJECT
+	option forward		ACCEPT
 	option masq		1
 	option mtu_fix		1
+
 
 # We need to accept udp packets on port 68,
 # see https://dev.openwrt.org/ticket/4108
