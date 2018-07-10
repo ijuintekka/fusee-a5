@@ -8,7 +8,7 @@ config wifi-device 'radio0'
 
 config wifi-iface 'default_radio0'
     option device 'radio0'
-    option network 'lan'
+    option network 'wlan'
     option mode 'ap'
     option ssid '3GWIFI_XXXX'
     option encryption 'psk2'
