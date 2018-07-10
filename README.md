@@ -17,7 +17,7 @@ This release supports, by default, the mounting of USB storage with FAT16, FAT32
 
 Upon insertion of a USB storage device, the root of each partition will be probed for a new payload.bin, and if found will replace the current payload with the discovered file.
 
-This release has, by default, ethernet activated and set to be configured by DHCP, as well as Wi-Fi enabled by default with the SSID "3GWIFI_XXXX" and the WPA2 passkey "12345678".
+This release has, by default, ethernet activated and set to be configured by DHCP, as well as Wi-Fi enabled by default with the SSID "3GWIFI_XXXX" and the WPA2 passkey "12345678". The default IP address for the dongle, over Wi-fi, is 10.1.5.1.
 
 These details can be changed at any time by editing /etc/config/network and /etc/config/wireless respectively.
 
